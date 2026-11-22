@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+  namespace: n3-rafael
+data:
+  DB_HOST: mysql
+  DB_PORT: "3306"
+  DB_USER: root
+  DB_NAME: loja
+  REDIS_HOST: redis
+  REDIS_PORT: "6379"
